@@ -49,7 +49,7 @@ const about = () => {
           We appreciate your support and look forward to serving you in the future.
         </p>
         <p className="text-lg text-center mb-8">
-          Together, let's build a brighter future.
+          Together, let&apos;s build a brighter future.
         </p>
         <p className="text-lg text-center mb-8">
           For inquiries, please reach out to us via email or phone.

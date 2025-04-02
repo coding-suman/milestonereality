@@ -5,6 +5,7 @@
 import { useState } from "react";
 import { Menu, Close, QuestionMark, Instagram, Facebook } from "@mui/icons-material";
 import { pink } from "@mui/material/colors";
+import Link from "next/link";
 
 const MainMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,10 +25,10 @@ const MainMenu = () => {
             </div>
             {/* Navigation Links */}
             <div className="hidden md:flex space-x-6 text-sm">
-              <a href="/" className="text-yellow-400 font-semibold hover:underline">Home</a>
-              <a href="/projects" className="hover:text-yellow-400 hover:underline">Projects</a>
-              <a href="/about" className="hover:text-yellow-400 hover:underline">About Us</a>
-              <a href="/contact" className="hover:text-yellow-400 hover:underline">Contact Us</a>
+              <Link href="/" className="text-yellow-400 font-semibold hover:underline">Home</Link>
+              <Link href="/projects" className="hover:text-yellow-400 hover:underline">Projects</Link>
+              <Link href="/about" className="hover:text-yellow-400 hover:underline">About Us</Link>
+              <Link href="/contact" className="hover:text-yellow-400 hover:underline">Contact Us</Link>
             </div>
             {/* Social Icons */}
             <div className="hidden md:flex space-x-2">
@@ -53,10 +54,10 @@ const MainMenu = () => {
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-blue-900 px-4 pb-4">
-            <a href="/" className="block text-yellow-400 font-semibold py-2">Home</a>
-            <a href="/projects" className="block text-white py-2 hover:text-yellow-400">Projects</a>
-            <a href="/about" className="block text-white py-2 hover:text-yellow-400">About Us</a>
-            <a href="/contact" className="block text-white py-2 hover:text-yellow-400">Contact Us</a>
+            <Link href="/" className="block text-yellow-400 font-semibold py-2">Home</Link>
+            <Link href="/projects" className="block text-white py-2 hover:text-yellow-400">Projects</Link>
+            <Link href="/about" className="block text-white py-2 hover:text-yellow-400">About Us</Link>
+            <Link href="/contact" className="block text-white py-2 hover:text-yellow-400">Contact Us</Link>
             <button className="w-full bg-yellow-400 text-blue-900 px-4 py-2 rounded-md font-semibold flex items-center justify-center gap-2 mt-2">
               <span>Enquire Now</span>
             </button>
