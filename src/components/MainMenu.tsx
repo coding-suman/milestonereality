@@ -6,6 +6,7 @@ import { useState } from "react";
 import { Menu, Close, QuestionMark, Instagram, Facebook } from "@mui/icons-material";
 import { pink } from "@mui/material/colors";
 import Link from "next/link";
+import Image from "next/image";
 
 const MainMenu = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,7 @@ const MainMenu = () => {
           <div className="flex justify-between items-center py-4">
             {/* Logo */}
             <div className="flex items-center">
-              <img src="/next.svg" alt="Milestone Realty - Logo" className="h-10 w-auto" />
+              <Image src="/next.svg" alt="Milestone Realty - Logo" className="h-10 w-auto" />
             </div>
             {/* Navigation Links */}
             <div className="hidden md:flex space-x-6 text-sm">

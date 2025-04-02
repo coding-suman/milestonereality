@@ -6,15 +6,15 @@ import "./globals.css";
 import MainMenu from "../components/MainMenu"; // Import MobileMenu component
 import Footer from "@/components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
 // Dynamic Metadata - You can fetch this from an API or a database if needed
 export const metadata: Metadata = {

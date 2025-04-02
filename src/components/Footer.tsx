@@ -1,4 +1,5 @@
 import { Mail, Phone } from '@mui/icons-material'
+import Link from 'next/link'
 import React from 'react'
 
 const Footer = () => {
@@ -19,16 +20,16 @@ const Footer = () => {
                     </h4>
                     <ul>
                         <li>
-                            <a href="/" className="text-sm">Home</a>
+                            <Link href="/" className="text-sm">Home</Link>
                         </li>
                         <li>
-                            <a href="/projects" className="text-sm">Projects</a>
+                            <Link href="/projects" className="text-sm">Projects</Link>
                         </li>
                         <li>
-                            <a href="/about" className="text-sm">About</a>
+                            <Link href="/about" className="text-sm">About</Link>
                         </li>
                         <li>
-                            <a href="/contact" className="text-sm">Contact</a>
+                            <Link href="/contact" className="text-sm">Contact</Link>
                         </li>
                     </ul>
                 </div>
@@ -49,13 +50,13 @@ const Footer = () => {
                     </h4>
                     <ul>
                         <li>
-                            <a className="text-sm" href="tel:9650657325"><Phone /> 9650657325</a>
+                            <Link className="text-sm" href="tel:9650657325"><Phone /> 9650657325</Link>
                         </li>
                         <li>
-                            <a className="text-sm" href="tel:9620922635"><Phone /> 9620922635</a>
+                            <Link className="text-sm" href="tel:9620922635"><Phone /> 9620922635</Link>
                         </li>
                         <li>
-                            <a className="text-sm" href="mailto:ankit10198@gmail.com"><Mail />ankit10198@gmail.com</a>
+                            <Link className="text-sm" href="mailto:ankit10198@gmail.com"><Mail />ankit10198@gmail.com</Link>
                         </li>
                     </ul>
                 </div>
