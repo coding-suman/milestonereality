@@ -80,7 +80,6 @@ export const metadata: Metadata = {
     capable: true,
     statusBarStyle: "default",
   },
-  mobileOptimized: "width",
   formatDetection: {
     telephone: false,
     address: false,
@@ -91,9 +90,6 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
     nocache: false,
-    maxSnippet: -1,
-    maxImagePreview: "large",
-    maxVideoPreview: -1,
   },
   alternates: {
     canonical: "https://milestone-realty.vercel.app",
@@ -101,45 +97,6 @@ export const metadata: Metadata = {
       "en-US": "/en",
       "en-GB": "/gb",
     },
-  },
-  appLinks: {
-    web: {
-      url: "https://milestone-realty.vercel.app",
-      should_fallback: true,
-      app_name: "Milestone Realty",
-      app_id: "com.mavis.infra",
-      package: "com.mavis.infra",
-      url_fallback: "https://milestone-realty.vercel.app",
-    },
-    ios: {
-      url: "https://milestone-realty.vercel.app",
-      app_name: "Milestone Realty",
-      app_store_id: "1234567890",
-      app_id: "com.mavis.infra",
-      url_fallback: "https://milestone-realty.vercel.app",
-    },
-    android: {
-      url: "https://milestone-realty.vercel.app",
-      app_name: "Milestone Realty",
-      package: "com.mavis.infra",
-      url_fallback: "https://milestone-realty.vercel.app",
-    },
-    windows: {
-      url: "https://milestone-realty.vercel.app",
-      app_name: "Milestone Realty",
-      package: "com.mavis.infra",
-      url_fallback: "https://milestone-realty.vercel.app",
-    },
-    // Add other app links as needed
-  },
-  themeColor: "#000000",
-  appleTouchIcon: "/logo.png",
-  appleTouchStartupImage: "/logo.png",
-  manifest: "/site.webmanifest",
-  icons: {
-    icon: "/logo.png",
-    shortcut: "/logo.png",
-    apple: "/logo.png",
   },
 };
 
